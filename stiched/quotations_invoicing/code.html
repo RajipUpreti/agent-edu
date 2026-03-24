@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-secondary-container": "#586676",
+              "surface-container-low": "#f3f4f5",
+              "secondary": "#526070",
+              "primary-container": "#006fef",
+              "outline-variant": "#c1c6d7",
+              "on-tertiary": "#ffffff",
+              "on-primary": "#ffffff",
+              "error": "#ba1a1a",
+              "surface-container-highest": "#e1e3e4",
+              "secondary-container": "#d5e4f7",
+              "on-error": "#ffffff",
+              "secondary-fixed-dim": "#b9c8da",
+              "on-tertiary-fixed": "#2a1700",
+              "on-primary-fixed-variant": "#004396",
+              "tertiary-fixed-dim": "#ffb95f",
+              "surface": "#f8f9fa",
+              "inverse-primary": "#aec6ff",
+              "on-surface-variant": "#414754",
+              "on-primary-fixed": "#001a42",
+              "inverse-on-surface": "#f0f1f2",
+              "on-background": "#191c1d",
+              "on-error-container": "#93000a",
+              "on-secondary-fixed-variant": "#3a4857",
+              "on-secondary-fixed": "#0e1d2a",
+              "on-tertiary-fixed-variant": "#653e00",
+              "error-container": "#ffdad6",
+              "outline": "#727786",
+              "background": "#f8f9fa",
+              "tertiary": "#825100",
+              "surface-variant": "#e1e3e4",
+              "tertiary-fixed": "#ffddb8",
+              "surface-tint": "#005ac4",
+              "on-tertiary-container": "#fffbff",
+              "surface-container": "#edeeef",
+              "primary-fixed": "#d8e2ff",
+              "surface-bright": "#f8f9fa",
+              "on-primary-container": "#fefcff",
+              "on-secondary": "#ffffff",
+              "surface-dim": "#d9dadb",
+              "secondary-fixed": "#d5e4f7",
+              "primary-fixed-dim": "#aec6ff",
+              "primary": "#0058bf",
+              "on-surface": "#191c1d",
+              "tertiary-container": "#a36700",
+              "inverse-surface": "#2e3132",
+              "surface-container-lowest": "#ffffff",
+              "surface-container-high": "#e7e8e9"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface flex min-h-screen">
+<!-- SideNavBar -->
+<aside class="fixed left-0 top-0 bottom-0 flex flex-col w-64 z-50 bg-slate-50 border-r border-slate-100">
+<div class="px-6 py-8">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-primary flex items-center justify-center text-white">
+<span class="material-symbols-outlined" data-icon="account_balance">account_balance</span>
+</div>
+<div>
+<h1 class="font-headline text-lg font-extrabold text-blue-600 leading-none">Global Ed</h1>
+<p class="text-[10px] uppercase tracking-wider font-bold text-slate-400 mt-1">Partner Portal</p>
+</div>
+</div>
+</div>
+<nav class="flex-1 px-4 space-y-1">
+<a class="flex items-center gap-3 text-slate-600 hover:text-slate-900 hover:bg-slate-200/50 rounded-lg transition-all px-4 py-2.5 font-manrope text-sm font-medium" href="#">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+<span>Dashboard</span>
+</a>
+<a class="flex items-center gap-3 text-slate-600 hover:text-slate-900 hover:bg-slate-200/50 rounded-lg transition-all px-4 py-2.5 font-manrope text-sm font-medium" href="#">
+<span class="material-symbols-outlined" data-icon="account_balance">account_balance</span>
+<span>Universities</span>
+</a>
+<a class="flex items-center gap-3 bg-blue-50 text-blue-700 rounded-lg px-4 py-2.5 font-manrope text-sm font-semibold" href="#">
+<span class="material-symbols-outlined" data-icon="payments">payments</span>
+<span>Quotations</span>
+</a>
+<a class="flex items-center gap-3 text-slate-600 hover:text-slate-900 hover:bg-slate-200/50 rounded-lg transition-all px-4 py-2.5 font-manrope text-sm font-medium" href="#">
+<span class="material-symbols-outlined" data-icon="assignment">assignment</span>
+<span>Tasks</span>
+</a>
+<a class="flex items-center gap-3 text-slate-600 hover:text-slate-900 hover:bg-slate-200/50 rounded-lg transition-all px-4 py-2.5 font-manrope text-sm font-medium" href="#">
+<span class="material-symbols-outlined" data-icon="folder_open">folder_open</span>
+<span>Documents</span>
+</a>
+</nav>
+<div class="px-4 py-6 border-t border-slate-100 space-y-1">
+<a class="flex items-center gap-3 text-slate-600 hover:text-slate-900 hover:bg-slate-200/50 rounded-lg transition-all px-4 py-2.5 font-manrope text-sm font-medium" href="#">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+<span>Settings</span>
+</a>
+<a class="flex items-center gap-3 text-slate-600 hover:text-slate-900 hover:bg-slate-200/50 rounded-lg transition-all px-4 py-2.5 font-manrope text-sm font-medium" href="#">
+<span class="material-symbols-outlined" data-icon="contact_support">contact_support</span>
+<span>Support</span>
+</a>
+</div>
+</aside>
+<!-- Main Content Area -->
+<main class="flex-1 ml-64 min-h-screen flex flex-col">
+<!-- TopAppBar -->
+<header class="sticky top-0 z-40 flex items-center justify-between px-8 w-full h-16 bg-white shadow-sm">
+<div class="flex items-center gap-4 flex-1">
+<div class="relative w-full max-w-md">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xl" data-icon="search">search</span>
+<input class="w-full bg-slate-50 border-none rounded-xl py-2 pl-10 pr-4 text-sm focus:ring-2 focus:ring-primary/20 transition-all placeholder:text-slate-400" placeholder="Search students or quotes..." type="text"/>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<button class="p-2 text-slate-500 hover:bg-slate-50 rounded-lg transition-colors cursor-pointer active:scale-95">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+<button class="p-2 text-slate-500 hover:bg-slate-50 rounded-lg transition-colors cursor-pointer active:scale-95">
+<span class="material-symbols-outlined" data-icon="help_outline">help_outline</span>
+</button>
+<div class="h-8 w-px bg-slate-100 mx-2"></div>
+<button class="flex items-center gap-2 p-1 pr-3 hover:bg-slate-50 rounded-full transition-colors cursor-pointer active:scale-95">
+<div class="w-8 h-8 rounded-full bg-slate-200 overflow-hidden">
+<img alt="User Profile" class="w-full h-full object-cover" data-alt="Professional headshot of a male advisor" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDCxNs4szgU7G4Jdabu_sPsk2pB-A9ayrSELwt9NtSZvt_Wxw5k4L6qyJfaspixpcgdEnpD6Nhnuvczbyh4ANh1RD-0MwnOPCQjVX0bnNZNQ-gCGxTqDMMWrzghkpR5byj0OgwpsU7k6Qpz4vt5oPcQA8lILtVU7deXRNdP5sDOUQp291ARheafEG-ka4_vl8hR6fXD1lzkY7ZSqcgd622MR5IgR9JapBcujKwkYHnCfjZf3TsW3lnObhv29t0ssjZbis6r_KeFnO8"/>
+</div>
+<span class="text-sm font-medium text-slate-700 font-manrope">Alex Rivera</span>
+</button>
+</div>
+</header>
+<!-- Page Canvas -->
+<div class="p-8 space-y-8">
+<!-- Header Section -->
+<div class="flex items-end justify-between">
+<div>
+<h2 class="font-headline text-3xl font-extrabold tracking-tight text-on-surface">Financial Quotations</h2>
+<p class="text-on-secondary-container mt-1">Manage and track student service estimates</p>
+</div>
+<button class="bg-gradient-to-r from-primary to-primary-container text-white px-6 py-3 rounded-xl font-headline font-bold text-sm flex items-center gap-2 shadow-lg shadow-primary/20 hover:shadow-primary/40 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-xl" data-icon="add">add</span>
+<span>New Quotation</span>
+</button>
+</div>
+<!-- Summary Cards: Bento Grid Style -->
+<div class="grid grid-cols-12 gap-6">
+<!-- Outstanding Card -->
+<div class="col-span-12 md:col-span-4 bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/20 shadow-sm relative overflow-hidden group">
+<div class="absolute -right-4 -top-4 w-24 h-24 bg-primary/5 rounded-full transition-transform group-hover:scale-110"></div>
+<div class="relative z-10">
+<p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Total Outstanding</p>
+<h3 class="font-headline text-4xl font-extrabold text-on-surface">$24,850.00</h3>
+<div class="flex items-center gap-2 mt-4 text-xs font-semibold text-error">
+<span class="material-symbols-outlined text-sm" data-icon="trending_up">trending_up</span>
+<span>+12% from last month</span>
+</div>
+</div>
+</div>
+<!-- Paid Card -->
+<div class="col-span-12 md:col-span-4 bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/20 shadow-sm relative overflow-hidden group">
+<div class="absolute -right-4 -top-4 w-24 h-24 bg-tertiary-container/5 rounded-full transition-transform group-hover:scale-110"></div>
+<div class="relative z-10">
+<p class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Paid this Month</p>
+<h3 class="font-headline text-4xl font-extrabold text-on-surface">$142,300.00</h3>
+<div class="flex items-center gap-2 mt-4 text-xs font-semibold text-primary">
+<span class="material-symbols-outlined text-sm" data-icon="check_circle">check_circle</span>
+<span>84% collection rate</span>
+</div>
+</div>
+</div>
+<!-- Stats Visual -->
+<div class="col-span-12 md:col-span-4 glass-panel p-6 rounded-xl border border-outline-variant/20 shadow-sm flex flex-col justify-between">
+<div class="flex justify-between items-center">
+<p class="text-xs font-bold text-slate-400 uppercase tracking-widest">Quote Conversion</p>
+<span class="material-symbols-outlined text-slate-300" data-icon="analytics">analytics</span>
+</div>
+<div class="mt-4 flex items-center gap-4">
+<div class="w-16 h-16 rounded-full border-4 border-primary flex items-center justify-center">
+<span class="text-sm font-bold text-primary">72%</span>
+</div>
+<p class="text-sm text-on-secondary-container leading-relaxed">Quotes converted to enrollments this quarter.</p>
+</div>
+</div>
+</div>
+<!-- Quotation Table -->
+<div class="bg-surface-container-lowest rounded-xl border border-outline-variant/20 shadow-sm overflow-hidden">
+<div class="p-6 border-b border-surface-container flex items-center justify-between">
+<h4 class="font-headline font-bold text-lg">Recent Quotations</h4>
+<div class="flex gap-2">
+<button class="px-4 py-2 text-sm font-semibold text-on-surface-variant hover:bg-surface-container-low rounded-lg transition-all flex items-center gap-2">
+<span class="material-symbols-outlined text-lg" data-icon="filter_list">filter_list</span>
+                            Filter
+                        </button>
+<button class="px-4 py-2 text-sm font-semibold text-on-surface-variant hover:bg-surface-container-low rounded-lg transition-all flex items-center gap-2">
+<span class="material-symbols-outlined text-lg" data-icon="download">download</span>
+                            Export
+                        </button>
+</div>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left">
+<thead>
+<tr class="bg-surface-container-low">
+<th class="px-6 py-4 text-xs font-bold text-slate-500 uppercase tracking-wider">Student Name</th>
+<th class="px-6 py-4 text-xs font-bold text-slate-500 uppercase tracking-wider">Quote ID</th>
+<th class="px-6 py-4 text-xs font-bold text-slate-500 uppercase tracking-wider">Service</th>
+<th class="px-6 py-4 text-xs font-bold text-slate-500 uppercase tracking-wider text-right">Total Amount</th>
+<th class="px-6 py-4 text-xs font-bold text-slate-500 uppercase tracking-wider">Status</th>
+<th class="px-6 py-4 text-xs font-bold text-slate-500 uppercase tracking-wider">Expiry Date</th>
+<th class="px-6 py-4"></th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container">
+<!-- Row 1 -->
+<tr class="hover:bg-surface-container-high transition-colors group">
+<td class="px-6 py-4">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-700 font-bold text-xs">AM</div>
+<span class="font-medium text-slate-900">Arjun Mehta</span>
+</div>
+</td>
+<td class="px-6 py-4 text-sm font-mono text-slate-500">QT-2024-0892</td>
+<td class="px-6 py-4 text-sm text-slate-600">Undergraduate Visa Service</td>
+<td class="px-6 py-4 text-sm font-bold text-slate-900 text-right">$1,200.00</td>
+<td class="px-6 py-4">
+<span class="px-3 py-1 bg-green-50 text-green-700 text-[10px] font-extrabold uppercase tracking-widest rounded-full">Paid</span>
+</td>
+<td class="px-6 py-4 text-sm text-slate-500">Oct 12, 2024</td>
+<td class="px-6 py-4 text-right">
+<button class="p-2 text-slate-400 hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="more_vert">more_vert</span>
+</button>
+</td>
+</tr>
+<!-- Row 2 -->
+<tr class="hover:bg-surface-container-high transition-colors group">
+<td class="px-6 py-4">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center text-slate-700 font-bold text-xs">SW</div>
+<span class="font-medium text-slate-900">Sarah Williams</span>
+</div>
+</td>
+<td class="px-6 py-4 text-sm font-mono text-slate-500">QT-2024-0901</td>
+<td class="px-6 py-4 text-sm text-slate-600">Masters Consultation Pack</td>
+<td class="px-6 py-4 text-sm font-bold text-slate-900 text-right">$3,500.00</td>
+<td class="px-6 py-4">
+<span class="px-3 py-1 bg-blue-50 text-blue-700 text-[10px] font-extrabold uppercase tracking-widest rounded-full">Sent</span>
+</td>
+<td class="px-6 py-4 text-sm text-slate-500">Nov 05, 2024</td>
+<td class="px-6 py-4 text-right">
+<button class="p-2 text-slate-400 hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="more_vert">more_vert</span>
+</button>
+</td>
+</tr>
+<!-- Row 3 -->
+<tr class="hover:bg-surface-container-high transition-colors group">
+<td class="px-6 py-4">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-amber-100 flex items-center justify-center text-amber-700 font-bold text-xs">CL</div>
+<span class="font-medium text-slate-900">Chen Li</span>
+</div>
+</td>
+<td class="px-6 py-4 text-sm font-mono text-slate-500">QT-2024-0914</td>
+<td class="px-6 py-4 text-sm text-slate-600">Foundation Year Bundle</td>
+<td class="px-6 py-4 text-sm font-bold text-slate-900 text-right">$850.00</td>
+<td class="px-6 py-4">
+<span class="px-3 py-1 bg-slate-100 text-slate-600 text-[10px] font-extrabold uppercase tracking-widest rounded-full">Draft</span>
+</td>
+<td class="px-6 py-4 text-sm text-slate-500">Dec 20, 2024</td>
+<td class="px-6 py-4 text-right">
+<button class="p-2 text-slate-400 hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="more_vert">more_vert</span>
+</button>
+</td>
+</tr>
+<!-- Row 4 -->
+<tr class="hover:bg-surface-container-high transition-colors group">
+<td class="px-6 py-4">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-rose-100 flex items-center justify-center text-rose-700 font-bold text-xs">OA</div>
+<span class="font-medium text-slate-900">Omar Al-Fayed</span>
+</div>
+</td>
+<td class="px-6 py-4 text-sm font-mono text-slate-500">QT-2024-0922</td>
+<td class="px-6 py-4 text-sm text-slate-600">Premium Visa Assistance</td>
+<td class="px-6 py-4 text-sm font-bold text-slate-900 text-right">$1,800.00</td>
+<td class="px-6 py-4">
+<span class="px-3 py-1 bg-blue-50 text-blue-700 text-[10px] font-extrabold uppercase tracking-widest rounded-full">Sent</span>
+</td>
+<td class="px-6 py-4 text-sm text-slate-500">Oct 30, 2024</td>
+<td class="px-6 py-4 text-right">
+<button class="p-2 text-slate-400 hover:text-primary transition-colors">
+<span class="material-symbols-outlined" data-icon="more_vert">more_vert</span>
+</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Pagination -->
+<div class="p-6 border-t border-surface-container flex items-center justify-between">
+<p class="text-xs font-medium text-slate-500">Showing 1 to 4 of 48 quotations</p>
+<div class="flex gap-1">
+<button class="w-8 h-8 flex items-center justify-center rounded-lg border border-outline-variant/20 text-slate-400 hover:bg-slate-50">
+<span class="material-symbols-outlined text-lg" data-icon="chevron_left">chevron_left</span>
+</button>
+<button class="w-8 h-8 flex items-center justify-center rounded-lg bg-primary text-white font-bold text-xs">1</button>
+<button class="w-8 h-8 flex items-center justify-center rounded-lg border border-outline-variant/20 text-slate-600 hover:bg-slate-50 font-bold text-xs">2</button>
+<button class="w-8 h-8 flex items-center justify-center rounded-lg border border-outline-variant/20 text-slate-600 hover:bg-slate-50 font-bold text-xs">3</button>
+<button class="w-8 h-8 flex items-center justify-center rounded-lg border border-outline-variant/20 text-slate-400 hover:bg-slate-50">
+<span class="material-symbols-outlined text-lg" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Floating Quick Action (FAB) - For New Quote shortcut -->
+<button class="fixed bottom-8 right-8 w-14 h-14 bg-primary rounded-full shadow-2xl flex items-center justify-center text-white active:scale-95 transition-all md:hidden">
+<span class="material-symbols-outlined text-2xl" data-icon="add">add</span>
+</button>
+</main>
+</body></html>

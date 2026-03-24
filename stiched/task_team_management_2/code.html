@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Academic Atelier - Task Management</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-secondary-container": "#586676",
+              "surface-container-low": "#f3f4f5",
+              "secondary": "#526070",
+              "primary-container": "#006fef",
+              "outline-variant": "#c1c6d7",
+              "on-tertiary": "#ffffff",
+              "on-primary": "#ffffff",
+              "error": "#ba1a1a",
+              "surface-container-highest": "#e1e3e4",
+              "secondary-container": "#d5e4f7",
+              "on-error": "#ffffff",
+              "secondary-fixed-dim": "#b9c8da",
+              "on-tertiary-fixed": "#2a1700",
+              "on-primary-fixed-variant": "#004396",
+              "tertiary-fixed-dim": "#ffb95f",
+              "surface": "#f8f9fa",
+              "inverse-primary": "#aec6ff",
+              "on-surface-variant": "#414754",
+              "on-primary-fixed": "#001a42",
+              "inverse-on-surface": "#f0f1f2",
+              "on-background": "#191c1d",
+              "on-error-container": "#93000a",
+              "on-secondary-fixed-variant": "#3a4857",
+              "on-secondary-fixed": "#0e1d2a",
+              "on-tertiary-fixed-variant": "#653e00",
+              "error-container": "#ffdad6",
+              "outline": "#727786",
+              "background": "#f8f9fa",
+              "tertiary": "#825100",
+              "surface-variant": "#e1e3e4",
+              "tertiary-fixed": "#ffddb8",
+              "surface-tint": "#005ac4",
+              "on-tertiary-container": "#fffbff",
+              "surface-container": "#edeeef",
+              "primary-fixed": "#d8e2ff",
+              "surface-bright": "#f8f9fa",
+              "on-primary-container": "#fefcff",
+              "on-secondary": "#ffffff",
+              "surface-dim": "#d9dadb",
+              "secondary-fixed": "#d5e4f7",
+              "primary-fixed-dim": "#aec6ff",
+              "primary": "#0058bf",
+              "on-surface": "#191c1d",
+              "tertiary-container": "#a36700",
+              "inverse-surface": "#2e3132",
+              "surface-container-lowest": "#ffffff",
+              "surface-container-high": "#e7e8e9"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-effect {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+      }
+    </style>
+</head>
+<body class="bg-background font-body text-on-surface">
+<aside class="fixed left-0 top-0 bottom-0 flex flex-col w-64 z-50 bg-slate-50 border-r border-slate-100 font-manrope text-sm font-medium">
+<div class="px-6 py-8">
+<div class="text-lg font-extrabold text-blue-600 mb-1">Global Ed</div>
+<div class="text-xs text-slate-500 uppercase tracking-widest font-bold">Partner Portal</div>
+</div>
+<nav class="flex-1 px-2">
+<div class="cursor-pointer active:scale-95 duration-150 ease-in-out px-4 py-2 text-slate-600 hover:text-slate-900 hover:bg-slate-200/50 rounded-lg mx-2 my-1 flex items-center gap-3">
+<span class="material-symbols-outlined">dashboard</span>
+<span>Dashboard</span>
+</div>
+<div class="cursor-pointer active:scale-95 duration-150 ease-in-out px-4 py-2 text-slate-600 hover:text-slate-900 hover:bg-slate-200/50 rounded-lg mx-2 my-1 flex items-center gap-3">
+<span class="material-symbols-outlined">account_balance</span>
+<span>Universities</span>
+</div>
+<div class="cursor-pointer active:scale-95 duration-150 ease-in-out px-4 py-2 text-slate-600 hover:text-slate-900 hover:bg-slate-200/50 rounded-lg mx-2 my-1 flex items-center gap-3">
+<span class="material-symbols-outlined">payments</span>
+<span>Quotations</span>
+</div>
+<div class="cursor-pointer active:scale-95 duration-150 bg-blue-50 text-blue-700 rounded-lg mx-2 my-1 px-4 py-2 flex items-center gap-3 font-semibold">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">assignment</span>
+<span>Tasks</span>
+</div>
+<div class="cursor-pointer active:scale-95 duration-150 ease-in-out px-4 py-2 text-slate-600 hover:text-slate-900 hover:bg-slate-200/50 rounded-lg mx-2 my-1 flex items-center gap-3">
+<span class="material-symbols-outlined">folder_open</span>
+<span>Documents</span>
+</div>
+</nav>
+<div class="px-2 pb-6 border-t border-slate-100 pt-4">
+<div class="cursor-pointer active:scale-95 duration-150 ease-in-out px-4 py-2 text-slate-600 hover:text-slate-900 hover:bg-slate-200/50 rounded-lg mx-2 my-1 flex items-center gap-3">
+<span class="material-symbols-outlined">settings</span>
+<span>Settings</span>
+</div>
+<div class="cursor-pointer active:scale-95 duration-150 ease-in-out px-4 py-2 text-slate-600 hover:text-slate-900 hover:bg-slate-200/50 rounded-lg mx-2 my-1 flex items-center gap-3">
+<span class="material-symbols-outlined">contact_support</span>
+<span>Support</span>
+</div>
+</div>
+</aside>
+<main class="ml-64 min-h-screen">
+<header class="sticky top-0 z-40 flex items-center justify-between px-8 w-full h-16 bg-white shadow-sm font-manrope text-sm font-medium">
+<div class="flex items-center flex-1">
+<div class="relative w-96">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-lg">search</span>
+<input class="w-full pl-10 pr-4 py-2 bg-slate-50 border-none rounded-xl focus:ring-2 focus:ring-primary/20 text-sm" placeholder="Search tasks, members or files..." type="text"/>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="p-2 text-slate-500 hover:bg-slate-50 rounded-full transition-colors relative">
+<span class="material-symbols-outlined">notifications</span>
+<span class="absolute top-2 right-2 w-2 h-2 bg-error rounded-full"></span>
+</button>
+<button class="p-2 text-slate-500 hover:bg-slate-50 rounded-full transition-colors">
+<span class="material-symbols-outlined">help_outline</span>
+</button>
+<div class="h-8 w-[1px] bg-slate-200 mx-2"></div>
+<div class="flex items-center gap-3 cursor-pointer hover:bg-slate-50 p-1 rounded-lg transition-colors">
+<img class="w-8 h-8 rounded-full bg-primary-container" data-alt="User profile avatar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiDSiUTf3QTSO8Sr4c7m_2364lzz2rAMdIW2s3QUi9HkTXgg4A5zaxO2CTA-r4Op0WS2WhCPmkW6-9GgL9m3e-SMOiwsXnW1ikuoxZG4BP3LG6Ln-WVhfYWsD-IAGadshsUUK3s-DITIXP5kPVPG5NmgtYddtNnH-0JuJSm8Z_gR0JJk1lha_LqdKmuofJVr40Qumd9_UaYYrXFeWctAtKWitjqU6JkF6CVbH6ALT-dfaERcMj-B_EOMeo_pIJaK5dv1c0VQcKaqGE"/>
+<span class="text-slate-900 font-semibold">Sarah Jenkins</span>
+</div>
+</div>
+</header>
+<div class="p-8">
+<div class="flex justify-between items-end mb-10">
+<div>
+<h1 class="text-4xl font-headline font-extrabold text-on-surface tracking-tight">Operations Kanban</h1>
+<p class="text-on-secondary-container mt-2 font-body">Manage global admission workflows and document verifications.</p>
+</div>
+<div class="flex items-center gap-3">
+<div class="flex -space-x-2 mr-4">
+<img class="w-8 h-8 rounded-full border-2 border-white bg-blue-100" data-alt="Team member John Doe" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1TewsFi-wiE1Ed5jXJlJ6X8loZdm9lsOYxaGBWMDm-NkjmcSb_KnxYmcJUY4xrAbB5AAkz3mrL9SXaug4Vze1B2RY-4yFf6IBeq0zDaYtMys4YrGjgD-Tqr8e0JTITJ5Bjvm5x2eXSsHqLOU889OJ4Z2fNv0QOVl8LgAtx0icYHoexK1Q952fplEPOWkdRWhGthbFlap1XGVpDz5oMQAMJGenvBcP2IOTCVS8sMNPwH0RZN4KK1845zBwrKBWapnct4MNHGeHaQws"/>
+<img class="w-8 h-8 rounded-full border-2 border-white bg-amber-100" data-alt="Team member Maria Lopez" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZ7gR3ujqDo8eUKZL0armeGN_O0wV9rHmOnBaucJbOcVZqeYubSKEyE8EA89E5KwXXhX4CtWueiRql9QxqSlz-x-c5rkmBsDsiovkeA3NFz_5KF06pfHqUkqQIvJMuBDboU7SMZHh0JyhC76goIyA3T8pb0WIZES26u3lmPYChb1hI3q1rVW3yhcjftRqvkWuETsm9Jv5dv9GYjku-t31fDPJ--vqy_NffxvuxLzjkqrfqnEdj_x7_i9R-saoddHu0i2W5oV-f4042"/>
+<img class="w-8 h-8 rounded-full border-2 border-white bg-emerald-100" data-alt="Team member Alex Kim" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCw7TyUC6yBSKRJ_rfxkgk94nUMmEY1CjN6yxQp-kJ0q2JciedraXuoNPAarfLrKv0dKdlvkhbWf6lzfjwcsNAZXtOjH1H271ioYypHq_nER0JuN3ffJQuhhYjd1RHY7cP_UrEmD3iHaMWh65oiG4V9IJJSOpMZGG7gDN83dnCSzc054euuM0IprvT-VmnuXTzNdi1YG75M-cLYVgrP6TEf0fMdSG7lkCRznR1-5MdAg045aeRfBg8EOW4EHF67p6i2MDvFfWEVjIHF"/>
+<div class="w-8 h-8 rounded-full border-2 border-white bg-slate-200 flex items-center justify-center text-[10px] font-bold text-slate-600">+4</div>
+</div>
+<button class="flex items-center gap-2 bg-gradient-to-r from-primary to-primary-container text-white px-6 py-2.5 rounded-xl font-semibold shadow-lg shadow-primary/20 hover:scale-105 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-lg">add</span>
+                        Create Task
+                    </button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-start">
+<section class="flex flex-col gap-4">
+<div class="flex items-center justify-between px-2 mb-2">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-slate-400"></span>
+<h3 class="font-headline font-bold text-slate-700 uppercase tracking-wider text-xs">To Do</h3>
+<span class="bg-slate-200 text-slate-600 text-[10px] px-2 py-0.5 rounded-full font-bold">3</span>
+</div>
+<button class="text-slate-400 hover:text-slate-600"><span class="material-symbols-outlined text-lg">more_horiz</span></button>
+</div>
+<div class="bg-surface-container-lowest p-5 rounded-xl border border-outline-variant/20 hover:shadow-xl hover:shadow-slate-200/50 transition-all cursor-grab active:cursor-grabbing group">
+<div class="flex justify-between items-start mb-3">
+<span class="bg-blue-50 text-blue-700 text-[10px] font-bold px-2 py-0.5 rounded uppercase tracking-wide">University Relation</span>
+<span class="material-symbols-outlined text-slate-300 group-hover:text-slate-500 transition-colors">drag_indicator</span>
+</div>
+<h4 class="font-headline font-bold text-on-surface text-base mb-2">Follow up with Oxford</h4>
+<p class="text-on-secondary-container text-xs mb-4 leading-relaxed">Confirm the new SOP requirements for the 2024 Fall intake regarding international students.</p>
+<div class="flex items-center justify-between mt-4">
+<div class="flex items-center gap-2 text-slate-400">
+<span class="material-symbols-outlined text-sm">calendar_today</span>
+<span class="text-[10px] font-medium">Oct 12</span>
+</div>
+<img class="w-6 h-6 rounded-full bg-blue-100" data-alt="Assigned to John Doe" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6rs_sbeCPTlJMDBLNtFDgFyLmY7bhlsATKwULZv-hJznLfRp_BghZfeWFfFj0Fv9_fBSG6HPJjOZ1rWDUISnwB_KFz9VBdOnrxHAXO6O83WOB8dOJOPstPuuel-ESTErVZwtkOV1dHY5SRKb0bIdRzCQQb7bjH21cF55LZRqoULAS0EhuxfBV09ldYCJ6fA468pZYFWD1Y7gKDf22HxnYTOcPiKPhEeZff-kONPkjR-gV1mm3v2rMwRsCF3cONyToJUzKOwk-58uP"/>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-5 rounded-xl border border-outline-variant/20 hover:shadow-xl hover:shadow-slate-200/50 transition-all cursor-grab active:cursor-grabbing group">
+<div class="flex justify-between items-start mb-3">
+<span class="bg-purple-50 text-purple-700 text-[10px] font-bold px-2 py-0.5 rounded uppercase tracking-wide">Documentation</span>
+<span class="material-symbols-outlined text-slate-300 group-hover:text-slate-500 transition-colors">drag_indicator</span>
+</div>
+<h4 class="font-headline font-bold text-on-surface text-base mb-2">Review SOP Template</h4>
+<p class="text-on-secondary-container text-xs mb-4 leading-relaxed">Update the master SOP template with the new creative writing guidelines.</p>
+<div class="flex items-center justify-between mt-4">
+<div class="flex items-center gap-2 text-error">
+<span class="material-symbols-outlined text-sm">priority_high</span>
+<span class="text-[10px] font-bold uppercase">High</span>
+</div>
+<img class="w-6 h-6 rounded-full bg-amber-100" data-alt="Assigned to Maria Lopez" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCt1DaQfIDBn_GRfSbywtOsMuLm6Q2JXXJsIoCePaBCbMPQNqnAE3CZ_huYH2_JEoF66O4snrSLcVZN8SGqbhnU7Wsry8azo3xwZCi_fdSqb4F17jIud5ahvuufrup3qoDkCRtUVKS2BTF3ckr5azPxTZgNq0XnVu-Hd_2fXNRPq9dzB5UdLXVCECkvwZ2DyaJXXB4mKmY3mY_KAiZCLh_cInh__0zgyq5_UOsmbH_iBzX4wUpC3hBC37v2c5_y_2pjRYDw1AvHK8QJ"/>
+</div>
+</div>
+<button class="w-full py-3 border-2 border-dashed border-slate-200 rounded-xl text-slate-400 font-semibold text-xs flex items-center justify-center gap-2 hover:bg-white hover:border-primary/30 hover:text-primary transition-all">
+<span class="material-symbols-outlined text-sm">add</span> Add Task
+                    </button>
+</section>
+<section class="flex flex-col gap-4">
+<div class="flex items-center justify-between px-2 mb-2">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-blue-500"></span>
+<h3 class="font-headline font-bold text-slate-700 uppercase tracking-wider text-xs">In Progress</h3>
+<span class="bg-blue-100 text-blue-700 text-[10px] px-2 py-0.5 rounded-full font-bold">2</span>
+</div>
+<button class="text-slate-400 hover:text-slate-600"><span class="material-symbols-outlined text-lg">more_horiz</span></button>
+</div>
+<div class="bg-surface-container-lowest p-5 rounded-xl border border-outline-variant/20 hover:shadow-xl hover:shadow-slate-200/50 transition-all cursor-grab active:cursor-grabbing group">
+<div class="flex justify-between items-start mb-3">
+<span class="bg-emerald-50 text-emerald-700 text-[10px] font-bold px-2 py-0.5 rounded uppercase tracking-wide">Visa Process</span>
+<span class="material-symbols-outlined text-slate-300 group-hover:text-slate-500 transition-colors">drag_indicator</span>
+</div>
+<h4 class="font-headline font-bold text-on-surface text-base mb-2">Visa Document Verification</h4>
+<p class="text-on-secondary-container text-xs mb-4 leading-relaxed">Batch 402 - Verifying bank statements and proof of funds for 12 students.</p>
+<div class="w-full bg-slate-100 h-1 rounded-full mb-4">
+<div class="bg-primary h-1 rounded-full w-[65%]"></div>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2 text-slate-400">
+<span class="material-symbols-outlined text-sm">chat_bubble_outline</span>
+<span class="text-[10px] font-medium">8</span>
+</div>
+<div class="flex -space-x-1.5">
+<img class="w-6 h-6 rounded-full border border-white bg-emerald-100" data-alt="Team member Alex Kim" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCz3sU2QsfQoMvBLjpa3JIJtaDYFcJT-EcjLyqYsg-izk70TCfWdYD1_gdscF3nTreyAczlIUbmGkiqZne9A7GmIxs1trJ9igWEIl47gKOjxPTgro67wDd6t9KL8aoYv3bZveAQyF7YvA6BqFMBx2lwuIuKUcY4FXxx-XVV6_cUoJOEKo-8wyTWVTmNwf6qvtm3z2Ey-w7ws-ie3MzTY6RIE_7qmewgaJgX923Ss6i72QNZOa_s58amyJ98AtUK_27OySgd0ddfy5cw"/>
+<img class="w-6 h-6 rounded-full border border-white bg-slate-300" data-alt="Team member" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvwX4YwNkHDlW0QHgB0MBNV6OQhSM1ebK7b6jujGvLToR8ozJco2hScLiKzgItCGyQXnDkefRJQgy-h2TSIZ4nYEK1sJXtOdNBdck1-fMk7iYJ7NKAD7lJSbijEZgenE5w8W5i4uHw8T8hSzd5xDxXFyXEP8D4idNN6Y2ht0njcHgfv-NLjnKIzanRgZTXIArRT0kDAwD5qsp_w__aICkukRGm9QEiuV-W-slHC8buU2xqUYKD33-FDGJLeWVQChcTwNRHtS-VUMVz"/>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-5 rounded-xl border border-outline-variant/20 hover:shadow-xl hover:shadow-slate-200/50 transition-all cursor-grab active:cursor-grabbing group">
+<div class="flex justify-between items-start mb-3">
+<span class="bg-orange-50 text-orange-700 text-[10px] font-bold px-2 py-0.5 rounded uppercase tracking-wide">Internal Ops</span>
+<span class="material-symbols-outlined text-slate-300 group-hover:text-slate-500 transition-colors">drag_indicator</span>
+</div>
+<h4 class="font-headline font-bold text-on-surface text-base mb-2">Partner Portal Training</h4>
+<p class="text-on-secondary-container text-xs mb-4 leading-relaxed">Onboarding session for the new regional partners from SE Asia.</p>
+<div class="flex items-center justify-between mt-4">
+<div class="flex items-center gap-2 text-slate-400">
+<span class="material-symbols-outlined text-sm">link</span>
+<span class="text-[10px] font-medium">2 Files</span>
+</div>
+<img class="w-6 h-6 rounded-full bg-primary-container" data-alt="Assigned to Sarah Jenkins" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjPxsYE90mqK-qo5G5QA1CtY5vIhOJZc1Ie_TMHFVoTzU9cbJfKLHmJGWbPHsWTR7qmNNEAYkPL8SNlK-atz1xmAePry3ffukrWUYXGv9WddMTvk8mBiRkbTS3X5tHHMaA3AaR4S3PxH0PeNLQM-tNVKa_ZHIjcex59o_D3EONMpXetaLjvACH5T2vxQNewDE4v3DL2vjXDsBHG7FquKDIjLMPONjm3bZoIN0LV2ddHNZBkdYfKSyGENL6ZUflHF-Ooj5RIJ9UqEhO"/>
+</div>
+</div>
+</section>
+<section class="flex flex-col gap-4">
+<div class="flex items-center justify-between px-2 mb-2">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-amber-500"></span>
+<h3 class="font-headline font-bold text-slate-700 uppercase tracking-wider text-xs">Review</h3>
+<span class="bg-amber-100 text-amber-700 text-[10px] px-2 py-0.5 rounded-full font-bold">1</span>
+</div>
+<button class="text-slate-400 hover:text-slate-600"><span class="material-symbols-outlined text-lg">more_horiz</span></button>
+</div>
+<div class="bg-surface-container-lowest p-5 rounded-xl border border-outline-variant/20 hover:shadow-xl hover:shadow-slate-200/50 transition-all cursor-grab active:cursor-grabbing group">
+<div class="flex justify-between items-start mb-3">
+<span class="bg-blue-50 text-blue-700 text-[10px] font-bold px-2 py-0.5 rounded uppercase tracking-wide">University Relation</span>
+<span class="material-symbols-outlined text-slate-300 group-hover:text-slate-500 transition-colors">drag_indicator</span>
+</div>
+<h4 class="font-headline font-bold text-on-surface text-base mb-2">Quarterly Commission Audit</h4>
+<p class="text-on-secondary-container text-xs mb-4 leading-relaxed">Final verification of commissions from Australian partners for Q3.</p>
+<div class="flex items-center gap-2 mb-4">
+<div class="px-2 py-1 rounded bg-amber-50 border border-amber-200 text-[10px] text-amber-700 font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">verified_user</span> Awaiting Manager
+                             </div>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2 text-slate-400">
+<span class="material-symbols-outlined text-sm">schedule</span>
+<span class="text-[10px] font-medium">Due Today</span>
+</div>
+<img class="w-6 h-6 rounded-full bg-blue-100" data-alt="Assigned to John Doe" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6ij4uLCOjfNjYVIBK2BWuFOwJ3tm7q-I1mlJFrlYNTgUlv0ehlEz7t-BzJBzkbqqbQWxFNW6M9xP2LBLHHBb-6kau5DGhol0wbjH3jG7tv6n_S5LmBBZqm45E2z6c9Y-3Xn4v6pzPt2T2-6aU5TIL2Y2HO4mwOCiJP1P8CgCmV9OlWwOgB9hJZccceInce4YHCZozLrKIw4f285iOLImM7Lbwf9-ObD-TbmP9-izTBzx0uobkHmS2sH4BX0diyHD39TO2ihTXGBNk"/>
+</div>
+</div>
+</section>
+<section class="flex flex-col gap-4">
+<div class="flex items-center justify-between px-2 mb-2">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+<h3 class="font-headline font-bold text-slate-700 uppercase tracking-wider text-xs">Completed</h3>
+<span class="bg-emerald-100 text-emerald-700 text-[10px] px-2 py-0.5 rounded-full font-bold">12</span>
+</div>
+<button class="text-slate-400 hover:text-slate-600"><span class="material-symbols-outlined text-lg">more_horiz</span></button>
+</div>
+<div class="bg-surface-container-low/50 p-5 rounded-xl border border-transparent opacity-75 grayscale-[0.5]">
+<div class="flex justify-between items-start mb-3">
+<span class="bg-slate-200 text-slate-600 text-[10px] font-bold px-2 py-0.5 rounded uppercase tracking-wide">Legal</span>
+<span class="material-symbols-outlined text-emerald-500" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+<h4 class="font-headline font-bold text-on-surface text-base mb-2 line-through decoration-slate-400">GDPR Compliance Update</h4>
+<p class="text-on-secondary-container text-xs mb-4 leading-relaxed">Update privacy policy for the new data handling protocols.</p>
+<div class="flex items-center justify-between mt-4">
+<div class="flex items-center gap-2 text-emerald-600">
+<span class="text-[10px] font-bold uppercase tracking-tight">Completed Oct 08</span>
+</div>
+<img class="w-6 h-6 rounded-full bg-emerald-100" data-alt="Completed by Alex Kim" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-8ANQYoQ4gh6eAB2tPyFqp8uyk8XF37TWsFZ4zun2WtsXlpLkda7WjNd0ip1UvGvcAHi8B3bDw6RFN0qJ-qu7BQL_1rOnil-q1LEuY9G1_ZVZX7-EdKl1iyXv3pg_PxatV3IIlA1Oc8aAxmPlPC-vY0HArQ4PzZJRA9Y7kA7kBDnymb6SKJofuljGkCjuA2yN9Zk8eX9pyn9pJPbfJrRJ1x1j9uLtRI6iZt78dXM6M4-t48oj_Rvjes-2P_oeLIHVLJy7dHG7vO0e"/>
+</div>
+</div>
+</section>
+</div>
+</div>
+<div class="fixed bottom-8 right-8 z-50">
+<div class="glass-effect p-4 rounded-2xl shadow-2xl border border-white/40 flex flex-col gap-4 w-64">
+<div class="flex items-center justify-between">
+<span class="text-xs font-bold text-slate-900 uppercase tracking-wider">Team Activity</span>
+<span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+</div>
+<div class="flex flex-col gap-3">
+<div class="flex items-center gap-3">
+<img class="w-6 h-6 rounded-full bg-blue-100" data-alt="John Doe" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAB4CauAzfsUaCJdNWmnzpST8c804PZ-L7jphS9wdWRe5CiXnrhQ2ckU99kbmqNwMCl1h6uesdBO_BHJ5BGJRtHOkPcUt60gEANUKI1X5z7iyeyj-xA2I9M3O1o7UF7Uhe38vAsZpQKO3Wl-EfrIDhcdAcQQmxeyJ0t3u9QCwdJglX36_SqgECxKhEbEhKYhjKV4KIqemMf61fAyb_ISD0szr9JcSXGP4BB8Kv2rIZVOLuzksYmu2FsyO2Yr3VjsEwOrMWws_l0CW4k"/>
+<div class="flex flex-col">
+<span class="text-[11px] font-bold text-slate-700">John Doe</span>
+<span class="text-[10px] text-slate-500">Working on Commission Audit</span>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<img class="w-6 h-6 rounded-full bg-amber-100" data-alt="Maria Lopez" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBwVrXbG0kWj7EFLAnXCR-GRTEdgwWQAPQfFOCosnQg1O4CnpFV-bnzW-0CthO9HPSpy6IzcvrfHikIHKnSt3Cg91vRbZ3Y4px8cF9gab_JuMBgynoW7aqys4OCLs-1qDURE2fiB_RuQs0gM-84jpgZqcezLBgkrWfIqxyjuTwV66CgoEJjukEpAtN8MdCgHhNp-FkHR22yKMgOKp9gcq2Od422nSkfSSeDjiio0DpdxFfcPoRMxU2wkFjxltGkj8jMD3NbqBDG2uV1"/>
+<div class="flex flex-col">
+<span class="text-[11px] font-bold text-slate-700">Maria Lopez</span>
+<span class="text-[10px] text-slate-500">Completed 3 tasks today</span>
+</div>
+</div>
+</div>
+<button class="w-full py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 text-[10px] font-bold rounded-lg transition-colors">View All Activity</button>
+</div>
+</div>
+</main>
+</body></html>

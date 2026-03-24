@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Partner Universities | Academic Atelier</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-secondary-container": "#586676",
+              "surface-container-low": "#f3f4f5",
+              "secondary": "#526070",
+              "primary-container": "#006fef",
+              "outline-variant": "#c1c6d7",
+              "on-tertiary": "#ffffff",
+              "on-primary": "#ffffff",
+              "error": "#ba1a1a",
+              "surface-container-highest": "#e1e3e4",
+              "secondary-container": "#d5e4f7",
+              "on-error": "#ffffff",
+              "secondary-fixed-dim": "#b9c8da",
+              "on-tertiary-fixed": "#2a1700",
+              "on-primary-fixed-variant": "#004396",
+              "tertiary-fixed-dim": "#ffb95f",
+              "surface": "#f8f9fa",
+              "inverse-primary": "#aec6ff",
+              "on-surface-variant": "#414754",
+              "on-primary-fixed": "#001a42",
+              "inverse-on-surface": "#f0f1f2",
+              "on-background": "#191c1d",
+              "on-error-container": "#93000a",
+              "on-secondary-fixed-variant": "#3a4857",
+              "on-secondary-fixed": "#0e1d2a",
+              "on-tertiary-fixed-variant": "#653e00",
+              "error-container": "#ffdad6",
+              "outline": "#727786",
+              "background": "#f8f9fa",
+              "tertiary": "#825100",
+              "surface-variant": "#e1e3e4",
+              "tertiary-fixed": "#ffddb8",
+              "surface-tint": "#005ac4",
+              "on-tertiary-container": "#fffbff",
+              "surface-container": "#edeeef",
+              "primary-fixed": "#d8e2ff",
+              "surface-bright": "#f8f9fa",
+              "on-primary-container": "#fefcff",
+              "on-secondary": "#ffffff",
+              "surface-dim": "#d9dadb",
+              "secondary-fixed": "#d5e4f7",
+              "primary-fixed-dim": "#aec6ff",
+              "primary": "#0058bf",
+              "on-surface": "#191c1d",
+              "tertiary-container": "#a36700",
+              "inverse-surface": "#2e3132",
+              "surface-container-lowest": "#ffffff",
+              "surface-container-high": "#e7e8e9"
+            },
+            fontFamily: {
+              "headline": ["Manrope"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; background-color: #f8f9fa; }
+        .font-headline { font-family: 'Manrope', sans-serif; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .glass-panel { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(193, 198, 215, 0.2); }
+    </style>
+</head>
+<body class="text-on-surface">
+<!-- SideNavBar (Authority: JSON & Design System) -->
+<aside class="fixed left-0 top-0 bottom-0 flex flex-col w-64 z-50 bg-slate-50 border-r border-slate-100 font-manrope text-sm font-medium">
+<div class="px-6 py-8">
+<div class="flex items-center gap-3 mb-10">
+<div class="w-8 h-8 bg-primary rounded-lg flex items-center justify-center text-white">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">account_balance</span>
+</div>
+<div>
+<h2 class="text-lg font-extrabold text-blue-600 tracking-tight">Global Ed</h2>
+<p class="text-[10px] uppercase tracking-widest text-slate-400">Partner Portal</p>
+</div>
+</div>
+<nav class="space-y-1">
+<a class="flex items-center gap-3 text-slate-600 hover:text-slate-900 hover:bg-slate-200/50 rounded-lg transition-all ease-in-out duration-200 px-4 py-2 mx-2 my-1" href="#">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+<span>Dashboard</span>
+</a>
+<!-- ACTIVE TAB: Universities -->
+<a class="flex items-center gap-3 bg-blue-50 text-blue-700 rounded-lg mx-2 my-1 ease-in-out duration-200 px-4 py-2 font-semibold" href="#">
+<span class="material-symbols-outlined" data-icon="account_balance">account_balance</span>
+<span>Universities</span>
+</a>
+<a class="flex items-center gap-3 text-slate-600 hover:text-slate-900 hover:bg-slate-200/50 rounded-lg transition-all ease-in-out duration-200 px-4 py-2 mx-2 my-1" href="#">
+<span class="material-symbols-outlined" data-icon="payments">payments</span>
+<span>Quotations</span>
+</a>
+<a class="flex items-center gap-3 text-slate-600 hover:text-slate-900 hover:bg-slate-200/50 rounded-lg transition-all ease-in-out duration-200 px-4 py-2 mx-2 my-1" href="#">
+<span class="material-symbols-outlined" data-icon="assignment">assignment</span>
+<span>Tasks</span>
+</a>
+<a class="flex items-center gap-3 text-slate-600 hover:text-slate-900 hover:bg-slate-200/50 rounded-lg transition-all ease-in-out duration-200 px-4 py-2 mx-2 my-1" href="#">
+<span class="material-symbols-outlined" data-icon="folder_open">folder_open</span>
+<span>Documents</span>
+</a>
+</nav>
+</div>
+<div class="mt-auto px-6 py-8 border-t border-slate-100/50">
+<nav class="space-y-1">
+<a class="flex items-center gap-3 text-slate-600 hover:text-slate-900 hover:bg-slate-200/50 rounded-lg transition-all ease-in-out duration-200 px-4 py-2 mx-2 my-1" href="#">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+<span>Settings</span>
+</a>
+<a class="flex items-center gap-3 text-slate-600 hover:text-slate-900 hover:bg-slate-200/50 rounded-lg transition-all ease-in-out duration-200 px-4 py-2 mx-2 my-1" href="#">
+<span class="material-symbols-outlined" data-icon="contact_support">contact_support</span>
+<span>Support</span>
+</a>
+</nav>
+</div>
+</aside>
+<!-- Main Content Canvas -->
+<main class="ml-64 min-h-screen flex flex-col">
+<!-- TopAppBar (Authority: JSON) -->
+<header class="sticky top-0 z-40 flex items-center justify-between px-8 w-full h-16 bg-white shadow-sm font-manrope text-sm font-medium">
+<div class="flex items-center gap-4 flex-1">
+<div class="relative w-96">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-lg">search</span>
+<input class="w-full bg-slate-50 border-none rounded-full py-2 pl-10 pr-4 focus:ring-2 focus:ring-primary/20 transition-all text-xs" placeholder="Search institutions, regions, or contacts..." type="text"/>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<button class="text-slate-500 hover:bg-slate-50 p-2 rounded-full transition-colors active:scale-95 duration-150">
+<span class="material-symbols-outlined" data-icon="notifications">notifications</span>
+</button>
+<button class="text-slate-500 hover:bg-slate-50 p-2 rounded-full transition-colors active:scale-95 duration-150">
+<span class="material-symbols-outlined" data-icon="help_outline">help_outline</span>
+</button>
+<div class="h-8 w-8 rounded-full bg-slate-200 overflow-hidden cursor-pointer active:scale-95 duration-150 border border-slate-100">
+<img alt="User Profile" class="w-full h-full object-cover" data-alt="Professional headshot of a male consultant" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgLxogC_n5v1gLUiSBqZeRHdFow0Zwfw0bmbQ1i8WWhhOIJ94O-j7MhoxX6kEf1DLc6A84_efET484-sylxFdaS8E_NN_cKWNG9IGItTzl534CbmAob0VwyCAtW1iga6GXSGPodYxX4QyMIpRz_rAVgHEwOsjLUiJZ1ULW_M6qqg7lKa6HxPQmQOpsYqbgAfv8bZx66mQvi89847eOX3sczsHHg4S6t6GrcVdf79Y_EEkHvQZtGf6p5Tj1e822ZzVNKGBUTXMaC14t"/>
+</div>
+</div>
+</header>
+<!-- Page Header & Hero Actions -->
+<section class="px-12 py-10">
+<div class="flex justify-between items-end mb-12">
+<div>
+<nav class="flex items-center gap-2 text-slate-400 text-xs font-semibold uppercase tracking-widest mb-3">
+<span>Directory</span>
+<span class="material-symbols-outlined text-[10px]">chevron_right</span>
+<span class="text-primary">Global Partners</span>
+</nav>
+<h1 class="text-4xl font-extrabold font-headline tracking-tight text-on-surface">Partner Universities</h1>
+<p class="text-on-secondary-container mt-2 max-w-xl body-md">Manage institutional relationships, commission structures, and active service level agreements across your global network.</p>
+</div>
+<button class="bg-gradient-to-r from-primary to-primary-container text-white px-8 py-3 rounded-xl font-semibold flex items-center gap-2 shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 active:scale-95 transition-all">
+<span class="material-symbols-outlined" style="font-variation-settings: 'wght' 600;">add</span>
+<span>Add New Partner</span>
+</button>
+</div>
+<!-- Bento Filter Bar -->
+<div class="grid grid-cols-12 gap-4 mb-8">
+<div class="col-span-8 glass-panel rounded-2xl p-4 flex items-center gap-6">
+<div class="flex items-center gap-2 border-r border-outline-variant/30 pr-6">
+<span class="material-symbols-outlined text-slate-400" data-icon="filter_list">filter_list</span>
+<span class="text-xs font-bold text-slate-500 uppercase tracking-tight">Filters</span>
+</div>
+<div class="flex gap-4">
+<select class="bg-surface-container-low border-none rounded-lg text-sm font-medium py-2 px-4 focus:ring-0 cursor-pointer hover:bg-surface-container-high transition-colors">
+<option>All Regions</option>
+<option>North America</option>
+<option>Europe</option>
+<option>Oceania</option>
+<option>Asia</option>
+</select>
+<select class="bg-surface-container-low border-none rounded-lg text-sm font-medium py-2 px-4 focus:ring-0 cursor-pointer hover:bg-surface-container-high transition-colors">
+<option>Agreement Status</option>
+<option>Active</option>
+<option>Pending Renewal</option>
+<option>Expired</option>
+</select>
+<select class="bg-surface-container-low border-none rounded-lg text-sm font-medium py-2 px-4 focus:ring-0 cursor-pointer hover:bg-surface-container-high transition-colors">
+<option>Commission (Min)</option>
+<option>5%+</option>
+<option>10%+</option>
+<option>15%+</option>
+</select>
+</div>
+<button class="ml-auto text-xs font-bold text-primary hover:underline">Clear All</button>
+</div>
+<div class="col-span-4 glass-panel rounded-2xl p-4 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-secondary-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">analytics</span>
+</div>
+<div>
+<p class="text-[10px] uppercase font-bold text-slate-400 tracking-wider">Total Partnerships</p>
+<p class="text-xl font-extrabold font-headline">142</p>
+</div>
+</div>
+<div class="h-8 w-[1px] bg-outline-variant/30"></div>
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-tertiary/10 flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<div>
+<p class="text-[10px] uppercase font-bold text-slate-400 tracking-wider">Top Tier</p>
+<p class="text-xl font-extrabold font-headline">12</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Editorial Table (The Core) -->
+<div class="bg-surface-container-lowest rounded-3xl overflow-hidden shadow-sm border border-outline-variant/10">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container-low text-on-secondary-container">
+<th class="py-5 px-8 text-[11px] font-bold uppercase tracking-widest">Institution Name</th>
+<th class="py-5 px-6 text-[11px] font-bold uppercase tracking-widest">Location</th>
+<th class="py-5 px-6 text-[11px] font-bold uppercase tracking-widest">Commission Rate</th>
+<th class="py-5 px-6 text-[11px] font-bold uppercase tracking-widest">Agreements</th>
+<th class="py-5 px-6 text-[11px] font-bold uppercase tracking-widest">Key Contact</th>
+<th class="py-5 px-8 text-right"></th>
+</tr>
+</thead>
+<tbody class="divide-y-0">
+<!-- Row 1 -->
+<tr class="hover:bg-surface-container-high transition-colors group cursor-pointer">
+<td class="py-6 px-8">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center overflow-hidden border border-slate-50">
+<img alt="Oxford University Logo" class="w-full h-full object-cover" data-alt="University of Oxford historic architecture logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0pFgf5u0Ce2SF2xQbl0qwamMqHNJEg1MfcXQRKKrm2isgWmkT_jZq7gUa0NWKq6l4XzMFF0pihpj6YpUf1JjyTuDwOxkfvTdKtCs5XjbMxQQume6rFNydOlwPfDiFGomRiuDVFbwgwXBpzdy31X2AsWpmZK5oMPcVFdga33xCC62FTni-CRnEkM_LiP15lPDyFYF2Hyulyx_JrFfJbjOsD-_GMGVn_gPJforv1OVgbsRoiExk6McJj2UBJ3SjoxQeQ3ljkOizYD5c"/>
+</div>
+<div>
+<p class="text-sm font-bold font-headline text-on-surface">University of Oxford</p>
+<p class="text-xs text-slate-400">Premium Partner</p>
+</div>
+</div>
+</td>
+<td class="py-6 px-6">
+<div class="flex items-center gap-2 text-sm text-on-surface-variant font-medium">
+<span class="material-symbols-outlined text-lg text-slate-300">location_on</span>
+                                    Oxford, United Kingdom
+                                </div>
+</td>
+<td class="py-6 px-6">
+<div class="inline-flex items-center px-3 py-1 bg-primary/5 text-primary rounded-full text-sm font-bold">
+                                    15.0%
+                                </div>
+</td>
+<td class="py-6 px-6">
+<div class="flex -space-x-2">
+<div class="w-8 h-8 rounded-full border-2 border-white bg-blue-100 flex items-center justify-center text-[10px] font-bold text-blue-600">UG</div>
+<div class="w-8 h-8 rounded-full border-2 border-white bg-indigo-100 flex items-center justify-center text-[10px] font-bold text-indigo-600">PG</div>
+<div class="w-8 h-8 rounded-full border-2 border-white bg-purple-100 flex items-center justify-center text-[10px] font-bold text-purple-600">R</div>
+</div>
+</td>
+<td class="py-6 px-6">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-slate-200">
+<img alt="Sarah Jenkins" class="w-full h-full rounded-full object-cover" data-alt="Portrait of Sarah Jenkins, University Contact" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWu6sFKungtbA7hh3tpIPfUldqcRYgRSA7MGuoZgT5KhJrJDj9w5lIpR4LH9-gxYGgYOcute12f02xfvJWe7RITfoUHKIOeSdDqVTYZoBkSbi02AUm8yRqIddCQY0NYlqcsnHDU4JLnQuWSOc40f2s3I1vYMw7X60eZot1SP_z9HrQOnR7k7Ikm3kta8tGg8KbDLBHUGFpBsyDAnhhk4REzbZMqae9TT62ppklfBCX5ILZ8G_aZzu04PL80ujzyGKs-4gtFZ7c4DT0"/>
+</div>
+<div>
+<p class="text-xs font-bold text-on-surface">Sarah Jenkins</p>
+<p class="text-[10px] text-slate-400">Head of Admissions</p>
+</div>
+</div>
+</td>
+<td class="py-6 px-8 text-right">
+<button class="p-2 rounded-lg hover:bg-white transition-colors text-slate-300 hover:text-primary">
+<span class="material-symbols-outlined">more_vert</span>
+</button>
+</td>
+</tr>
+<!-- Row 2 -->
+<tr class="hover:bg-surface-container-high transition-colors group cursor-pointer">
+<td class="py-6 px-8">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center overflow-hidden border border-slate-50">
+<img alt="Stanford University Logo" class="w-full h-full object-cover" data-alt="Stanford University campus architecture logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBk8Yu5ylSf28MOioSryY7Rmv-apXed3dZ_Og_sDpnq9x2DzjazmHi1mOM__YxLhCUhH3rwo3q6pJ373k8iit3qKOR-vjl_SxdvTKmNwLAGvZoh7hRmHi2v1gtDxWDA48WbYHprCBIty3qzrmWwcxBv-xUcc6c9hv29ckwjQLtbKjQD5pryi65UTUDI4xiO2KvECyLyE36-LNh4a6q2dnXHLMBplyZ59NtvJxxnUEByw0co62dnkdhNMArmCx8OsuDQTmV4LQgt9b07"/>
+</div>
+<div>
+<p class="text-sm font-bold font-headline text-on-surface">Stanford University</p>
+<p class="text-xs text-slate-400">Strategic Alliance</p>
+</div>
+</div>
+</td>
+<td class="py-6 px-6">
+<div class="flex items-center gap-2 text-sm text-on-surface-variant font-medium">
+<span class="material-symbols-outlined text-lg text-slate-300">location_on</span>
+                                    California, USA
+                                </div>
+</td>
+<td class="py-6 px-6">
+<div class="inline-flex items-center px-3 py-1 bg-primary/5 text-primary rounded-full text-sm font-bold">
+                                    12.5%
+                                </div>
+</td>
+<td class="py-6 px-6">
+<div class="flex -space-x-2">
+<div class="w-8 h-8 rounded-full border-2 border-white bg-indigo-100 flex items-center justify-center text-[10px] font-bold text-indigo-600">PG</div>
+<div class="w-8 h-8 rounded-full border-2 border-white bg-purple-100 flex items-center justify-center text-[10px] font-bold text-purple-600">R</div>
+</div>
+</td>
+<td class="py-6 px-6">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-slate-200">
+<img alt="David Chen" class="w-full h-full rounded-full object-cover" data-alt="Portrait of David Chen, University Contact" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIKcpPMCog6XgX9K5OcFJCyaTziZtBZaekmTM1i6gv7HMJjk-5Bqq0BbHvzib-RczakJ3nlmsdVQZgLHwcHrozWHBkmyo-1PFT_S_eBcxkdxLn-rBbeBHijTzGGWTyHV519T7pFXqYzCXf0MjAX_7YC1DJOpFER5D4JD1MtdMihTxOtW0u0HrB4eZ8OyTAzBBTgpsHCNWe48WWInesvVR2z8kgVD--fwl4HIVnkMHAktkNVYggnoPCetHjNHhnvizDcEcN_rKv5EVA"/>
+</div>
+<div>
+<p class="text-xs font-bold text-on-surface">David Chen</p>
+<p class="text-[10px] text-slate-400">Regional Director</p>
+</div>
+</div>
+</td>
+<td class="py-6 px-8 text-right">
+<button class="p-2 rounded-lg hover:bg-white transition-colors text-slate-300 hover:text-primary">
+<span class="material-symbols-outlined">more_vert</span>
+</button>
+</td>
+</tr>
+<!-- Row 3 -->
+<tr class="hover:bg-surface-container-high transition-colors group cursor-pointer">
+<td class="py-6 px-8">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center overflow-hidden border border-slate-50">
+<img alt="Melbourne Uni Logo" class="w-full h-full object-cover" data-alt="University of Melbourne modernist building logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-pBKAR-SxnlFgLsvz6udmUHFfjfUlKrFfmkY7hKGBbteMabOmOvX5v8kEsiYszjwuHuX0jVdDUYKmoF7WDEXG-zwBcASd922F6_IzC0Oj9Jzq5uiOcWzxFhtPIssFFxJ_-8_u3-nk6j5XbxquGjer-GsEMGZtr5waAjPjR-E4v_yNwergluMtydZYxzZTk_3JHMNIhcn88emHGvclSZH_sOsw2UN3zrcr2fcCIbpz5XEYYJNnl70d1U4c0NMJ0RAKMlnpbBRpFGOI"/>
+</div>
+<div>
+<p class="text-sm font-bold font-headline text-on-surface">University of Melbourne</p>
+<p class="text-xs text-slate-400">Active Partner</p>
+</div>
+</div>
+</td>
+<td class="py-6 px-6">
+<div class="flex items-center gap-2 text-sm text-on-surface-variant font-medium">
+<span class="material-symbols-outlined text-lg text-slate-300">location_on</span>
+                                    Victoria, Australia
+                                </div>
+</td>
+<td class="py-6 px-6">
+<div class="inline-flex items-center px-3 py-1 bg-primary/5 text-primary rounded-full text-sm font-bold">
+                                    10.0%
+                                </div>
+</td>
+<td class="py-6 px-6">
+<div class="flex -space-x-2">
+<div class="w-8 h-8 rounded-full border-2 border-white bg-blue-100 flex items-center justify-center text-[10px] font-bold text-blue-600">UG</div>
+<div class="w-8 h-8 rounded-full border-2 border-white bg-indigo-100 flex items-center justify-center text-[10px] font-bold text-indigo-600">PG</div>
+</div>
+</td>
+<td class="py-6 px-6">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-slate-200">
+<img alt="Emma Wilson" class="w-full h-full rounded-full object-cover" data-alt="Portrait of Emma Wilson, University Contact" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdpj0JjP1TlkBHcWR32xv949YQlnZV8qjTuIdCdYDthdIqoweMtWEhr9BFKqOw_B-bRVYez1POFX9jGSjx_7YvXqR_nWKMCkdsQYmqg-kiLPD-PvMWS2uPEc6fKVc04DBBPgmmIGxGabEHi9JiS91d3IAXkTsA5wvvsownoenEFOVSgVQbSgkBgVx7ySEP2HlioIJ5_u9H_1BSgW1kxgtYWJn-PMGS-9MunG-uzW2i974d6HVBAX1Xn1ZJAeSquVNZKYlH6vSEGlnE"/>
+</div>
+<div>
+<p class="text-xs font-bold text-on-surface">Emma Wilson</p>
+<p class="text-[10px] text-slate-400">Global Recruitment</p>
+</div>
+</div>
+</td>
+<td class="py-6 px-8 text-right">
+<button class="p-2 rounded-lg hover:bg-white transition-colors text-slate-300 hover:text-primary">
+<span class="material-symbols-outlined">more_vert</span>
+</button>
+</td>
+</tr>
+<!-- Row 4 -->
+<tr class="hover:bg-surface-container-high transition-colors group cursor-pointer">
+<td class="py-6 px-8">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center overflow-hidden border border-slate-50">
+<img alt="Sorbonne Logo" class="w-full h-full object-cover" data-alt="Sorbonne University Paris crest logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYScg9sqNXsotBkuLL7T0BcS9_jf3xMZkWvPcCQqL1wY6u7Z8SXqmUbK-9K-NQpIXzwRjsoKb_LVNUNfYRKojmNf6vKNzKR0TO5FmePxo_c9D-h7_YYCMrMM9NGSS-cPIPAWZIIzkq1CMNwKgPusYsNXhLbDXVDbG1aW-SqD-igkhHKK2FOm3Q_krOF8X8SFOhWsF2WMN5WnnFlv0Un9eYVzy3gjOh1_Aeb5X2vxME3BQ1g0fEMQRzHyZ-mkORtqz-OXAcWGVSPts5"/>
+</div>
+<div>
+<p class="text-sm font-bold font-headline text-on-surface">Sorbonne University</p>
+<p class="text-xs text-orange-400 font-semibold">Pending Renewal</p>
+</div>
+</div>
+</td>
+<td class="py-6 px-6">
+<div class="flex items-center gap-2 text-sm text-on-surface-variant font-medium">
+<span class="material-symbols-outlined text-lg text-slate-300">location_on</span>
+                                    Paris, France
+                                </div>
+</td>
+<td class="py-6 px-6">
+<div class="inline-flex items-center px-3 py-1 bg-primary/5 text-primary rounded-full text-sm font-bold">
+                                    12.0%
+                                </div>
+</td>
+<td class="py-6 px-6">
+<div class="flex -space-x-2">
+<div class="w-8 h-8 rounded-full border-2 border-white bg-purple-100 flex items-center justify-center text-[10px] font-bold text-purple-600">R</div>
+</div>
+</td>
+<td class="py-6 px-6">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-slate-200">
+<img alt="Pierre Gasly" class="w-full h-full rounded-full object-cover" data-alt="Portrait of Pierre Gasly, University Contact" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLrje2ez0-I6O5reu1LZPQ9ZgW3itFuN7fs8OyhE2YR12LMWLgd9OEVaQDSXxDVm5lpXFLM7pe1Fku1P3D5ZpHDy_aIK7fpvSp496Gr5V_5EtGWq0vrfA_XL6m1Iaic9sdUa4shlm4zQl9C65pcoWSgtLGBng8m9ljbDF4c1KMKuIMB2hvvkvybzhS5hjfHMZwM7nFfE56tloHoQEf6f3csq9NyC2T7lRuIonA_4uy_NTqppNAaJqKZlmN15WZ2-5RRai35QuKVrqV"/>
+</div>
+<div>
+<p class="text-xs font-bold text-on-surface">Pierre Gasly</p>
+<p class="text-[10px] text-slate-400">Dean of Partners</p>
+</div>
+</div>
+</td>
+<td class="py-6 px-8 text-right">
+<button class="p-2 rounded-lg hover:bg-white transition-colors text-slate-300 hover:text-primary">
+<span class="material-symbols-outlined">more_vert</span>
+</button>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- Pagination Footer -->
+<div class="px-8 py-5 flex items-center justify-between bg-surface-container-low border-t border-outline-variant/10">
+<p class="text-xs font-medium text-on-secondary-container">Showing 1 to 4 of 142 partners</p>
+<div class="flex gap-2">
+<button class="px-3 py-1.5 rounded-lg border border-outline-variant/30 text-xs font-bold text-slate-500 hover:bg-white transition-colors">Previous</button>
+<button class="px-3 py-1.5 rounded-lg bg-primary text-white text-xs font-bold hover:bg-primary-container transition-colors shadow-sm">1</button>
+<button class="px-3 py-1.5 rounded-lg border border-outline-variant/30 text-xs font-bold text-slate-500 hover:bg-white transition-colors">2</button>
+<button class="px-3 py-1.5 rounded-lg border border-outline-variant/30 text-xs font-bold text-slate-500 hover:bg-white transition-colors">3</button>
+<button class="px-3 py-1.5 rounded-lg border border-outline-variant/30 text-xs font-bold text-slate-500 hover:bg-white transition-colors">Next</button>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Contextual Floating Notification (Glassmorphism) -->
+<div class="fixed bottom-8 right-8 glass-panel rounded-2xl p-4 shadow-2xl max-w-sm flex items-start gap-4 border-primary/20">
+<div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">info</span>
+</div>
+<div>
+<h4 class="text-xs font-bold text-on-surface mb-1">Upcoming Renewals</h4>
+<p class="text-[10px] text-on-secondary-container leading-relaxed">3 institutional agreements are expiring in the next 30 days. Review Sorbonne University first.</p>
+<button class="mt-2 text-[10px] font-bold text-primary hover:underline">View Renewal Tasks</button>
+</div>
+<button class="text-slate-300 hover:text-slate-500">
+<span class="material-symbols-outlined text-sm">close</span>
+</button>
+</div>
+</body></html>

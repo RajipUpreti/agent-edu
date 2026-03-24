@@ -1,0 +1,2175 @@
+[  509234ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  519028ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  519663ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  532734ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  532735ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import trace:
+  Server Component:
+    ./src/components/layout/app-sidebar.tsx
+    ./src/components/layout/dashboard-shell.tsx
+    ./src/app/(dashboard)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  539732ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  539733ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  539733ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { cn } from "@/lib/utils";
+  5 |
+  6 | interface AppTopbarProps {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  561439ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  561439ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  561439ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { cn } from "@/lib/utils";
+  5 |
+  6 | interface AppTopbarProps {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  567832ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  567833ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  567833ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { cn } from "@/lib/utils";
+  5 |
+  6 | interface AppTopbarProps {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  575557ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  575558ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  575558ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { cn } from "@/lib/utils";
+  5 |
+  6 | interface AppTopbarProps {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  579958ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  579958ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  579958ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { cn } from "@/lib/utils";
+  5 |
+  6 | interface AppTopbarProps {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  601571ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  601571ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  601571ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { cn } from "@/lib/utils";
+  5 |
+  6 | interface AppTopbarProps {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  618695ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  618695ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  618695ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { cn } from "@/lib/utils";
+  5 |
+  6 | interface AppTopbarProps {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  634872ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  634873ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  634873ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { cn } from "@/lib/utils";
+  5 |
+  6 | interface AppTopbarProps {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  646676ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  646676ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  646677ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { cn } from "@/lib/utils";
+  5 |
+  6 | interface AppTopbarProps {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  668906ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  668906ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  668906ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { cn } from "@/lib/utils";
+  5 |
+  6 | interface AppTopbarProps {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  681041ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  681041ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  681041ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { cn } from "@/lib/utils";
+  5 |
+  6 | interface AppTopbarProps {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  687402ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  687402ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  687402ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { cn } from "@/lib/utils";
+  5 |
+  6 | interface AppTopbarProps {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  694175ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  694175ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  694175ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { cn } from "@/lib/utils";
+  5 |
+  6 | interface AppTopbarProps {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  703080ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  703080ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  703080ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { cn } from "@/lib/utils";
+  5 |
+  6 | interface AppTopbarProps {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  732362ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  732362ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  732362ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { cn } from "@/lib/utils";
+  5 |
+  6 | interface AppTopbarProps {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  732742ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  732742ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  732742ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { cn } from "@/lib/utils";
+  5 |
+  6 | interface AppTopbarProps {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  732834ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  732834ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  732834ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { cn } from "@/lib/utils";
+  5 |
+  6 | interface AppTopbarProps {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  733071ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  733071ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  733071ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { cn } from "@/lib/utils";
+  5 |
+  6 | interface AppTopbarProps {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  733251ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  733251ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  733251ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { cn } from "@/lib/utils";
+  5 |
+  6 | interface AppTopbarProps {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  738403ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  738403ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  738403ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { cn } from "@/lib/utils";
+  5 |
+  6 | interface AppTopbarProps {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  738604ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  738604ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  738605ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { cn } from "@/lib/utils";
+  5 |
+  6 | interface AppTopbarProps {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  784947ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  784947ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  784947ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { cn } from "@/lib/utils";
+  5 |
+  6 | interface AppTopbarProps {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  786418ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  786418ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  786418ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { cn } from "@/lib/utils";
+  5 |
+  6 | interface AppTopbarProps {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  786507ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  786507ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  786508ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { cn } from "@/lib/utils";
+  5 |
+  6 | interface AppTopbarProps {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  812480ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  812480ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  812480ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | interface AppTopbarProps {
+  6 |   sidebarOpen: boolean;
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[  823345ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=C5MTLetxZfnp336Inhb5M' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_17643121._.js:10878
+[  824347ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=C5MTLetxZfnp336Inhb5M' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_17643121._.js:10878
+[  825349ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=C5MTLetxZfnp336Inhb5M' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_17643121._.js:10878
+[  826351ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=C5MTLetxZfnp336Inhb5M' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_17643121._.js:10878
+[  827354ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=C5MTLetxZfnp336Inhb5M' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_17643121._.js:10878
+[  832632ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/office-check-ins:0
+[  832759ms] Error: ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+
+
+    at Object.getCompilationErrors (file:///Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1008:59)
+    at DevBundlerService.getCompilationError (file:///Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/node_modules/next/dist/server/dev/next-dev-server.js:706:42)
+    at DevServer.findPageComponents (file:///Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/node_modules/next/dist/server/dev/next-dev-server.js:676:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/node_modules/next/dist/server/base-server.js:1733:26)
+[  832763ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[  832763ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[  832763ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | interface AppTopbarProps {
+  6 |   sidebarOpen: boolean;
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[  832764ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[  832764ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[  832764ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | interface AppTopbarProps {
+  6 |   sidebarOpen: boolean;
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[  832764ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[  832801ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[  832801ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[  832801ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | interface AppTopbarProps {
+  6 |   sidebarOpen: boolean;
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[  832984ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[  832985ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[  832985ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | interface AppTopbarProps {
+  6 |   sidebarOpen: boolean;
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[  833072ms] [ERROR] ./src/app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/rajipupreti/Desktop/personal-projects/counsultancy-app/apps/web/src/app/globals.css:166:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/app/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[  833072ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[  833072ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | interface AppTopbarProps {
+  6 |   sidebarOpen: boolean;
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[  862964ms] [ERROR] ./src/components/layout/app-sidebar.tsx:6:1
+Module not found: Can't resolve 'lucide-react'
+  4 | import { usePathname } from "next/navigation";
+  5 | import { cn } from "@/lib/utils";
+> 6 | import { X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const navItems = [
+  9 |   { label: "Dashboard", href: "/dashboard" },
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-sidebar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-sidebar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[  862964ms] [ERROR] ./src/components/layout/app-topbar.tsx:3:1
+Module not found: Can't resolve 'lucide-react'
+  1 | "use client";
+  2 |
+> 3 | import { Menu, X } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | interface AppTopbarProps {
+  6 |   sidebarOpen: boolean;
+
+Import traces:
+  Client Component Browser:
+    ./src/components/layout/app-topbar.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Client Component Browser]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/layout/app-topbar.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Client Component SSR]
+    ./src/components/layout/dashboard-shell.tsx [Server Component]
+    ./src/app/(dashboard)/layout.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_b3fb3b5f._.js:1920
+[  868802ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:2266
+[  869804ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:2266
+[  870806ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:2266
+[  871808ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:2266
+[  872809ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:2266
+[  877811ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:2266
+[  882814ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:2266
+[  887816ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:2266
+[  892819ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:2266
